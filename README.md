@@ -25,7 +25,9 @@ The third and most complex state is the Success state. This state consists of tw
 <p align="center">
  <img src="https://raw.githubusercontent.com/ricardoliu99/AniJikan/master/demo_images/home.jpg" height="450">
 </p>
+
 The shown list of media consists of multiple cards displaying the title of the anime, the airing time of the next episode (if any or if the information is currently available) based on the local timezone of the user, a cover image of the anime and a "down arrow" icon. When the down arrow icon is pressed, the card will expand and show a short summary of the anime as shown in the previous image.
+
 
 The tab belonging to the current season will contain a calendar icon, which switches the view from the list of media view to a schedule view. In this case, the calendar icon only shows for the winter season because it is the current season at the time of this writing. The following image shows what happens when the calendar icon is pressed.
 
