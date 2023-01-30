@@ -1,0 +1,45 @@
+query SeasonalMediaInfo(
+    $page: Int,
+    $type: MediaType,
+    $format: MediaFormat,
+    $asHtml: Boolean,
+    $season: MediaSeason,
+    $seasonYear: Int
+) {
+    Page(page: $page) {
+        pageInfo {
+            hasNextPage
+        }
+        media(
+            type: $type,
+            format: $format,
+            season: $season,
+            seasonYear:$seasonYear
+        ) {
+            id
+            description(asHtml: $asHtml)
+            coverImage {
+                extraLarge
+            }
+            nextAiringEpisode {
+                episode
+                airingAt
+            }
+            title {
+                romaji
+            }
+        }
+    }
+}
+
+
+
+
+#{
+#"page": 1,
+#"type": "ANIME",
+#"format": "TV",
+#"asHtml": true,
+#"season": "WINTER",
+#"seasonYear": 2023
+#}

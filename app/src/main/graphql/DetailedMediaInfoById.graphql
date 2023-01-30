@@ -1,0 +1,53 @@
+query DetailedMediaInfoById($id: Int) {
+    Media(id: $id) {
+        id
+        description
+        genres
+        episodes
+        source
+        characters {
+            edges {
+                node {
+                    name {
+                        userPreferred
+                    }
+                    image {
+                        large
+                    }
+                }
+                role
+                voiceActors(language: JAPANESE) {
+                    image {
+                        large
+                    }
+                    name {
+                        userPreferred
+                    }
+                }
+            }
+        }
+        coverImage {
+            extraLarge
+        }
+        startDate {
+            year
+            month
+            day
+        }
+        endDate {
+            year
+            month
+            day
+        }
+        studios{
+            nodes {
+                name
+                isAnimationStudio
+            }
+        }
+        title {
+            romaji
+            english
+        }
+    }
+}

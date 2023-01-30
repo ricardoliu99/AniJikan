@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AniJikan</string>
+    <string name="search">Search</string>
+    <string name="show_details">Show details</string>
+    <string name="winter">WINTER</string>
+    <string name="spring">SPRING</string>
+    <string name="summer">SUMMER</string>
+    <string name="fall">FALL</string>
+    <string name="calendar_view">calendar view</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="reminder_channel">Episode reminder</string>
+    <string name="channel_description">Reminds user that a new episode has been released</string>
+    <string name="notification_status_change">notification status change</string>
+    <string name="episode_number_time">EP %1$d: %2$s</string>
+    <string name="notification_description">Episode %1$d has been released!</string>
+    <string name="clear_search">Clear search</string>
+    <string name="back">Back</string>
+    <string name="loading">Loading…</string>
+    <string name="no_network">No network connection</string>
+    <string name="alternate_name">Alternate name</string>
+    <string name="genre">Genre</string>
+    <string name="source">Source</string>
+    <string name="start_date">Start date</string>
+    <string name="end_date">End date</string>
+    <string name="studio">Studio</string>
+    <string name="episode_count">Episode count</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="refresh">Refresh</string>
+</resources>
